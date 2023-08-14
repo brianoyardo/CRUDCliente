@@ -1,0 +1,20 @@
+Se utilizo Postman para la prueba de las APis con los siguientes enlaces:
+
+http://localhost:56632/api/Crud/ListarClientes (Metodo GET)
+
+http://localhost:56632/api/Crud/RegistrarCliente (Metodo POST, Body ,Raw , JSON)
+{
+    "ClienteId":8,
+    "Nombre":"Maya Tienga",
+    "Direccion":"Llozano Calle 45 Nro 423"
+}
+http://localhost:56632/api/Crud/ActualizarCliente (Metodo POST, Body ,Raw , JSON)
+{
+    "ClienteId":8
+}
+http://localhost:56632/api/Crud/EliminarCliente (Metodo POST, Body ,Raw , JSON)
+{
+    "Nombre":"Doña Florinda",
+    "Direccion":"La vecindad del Chavo",
+    "ClienteId":3
+}

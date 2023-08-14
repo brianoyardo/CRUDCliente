@@ -12,7 +12,7 @@ namespace WebApi.Controllers
     public class CrudController : ControllerBase
     {
         [HttpGet]
-        [Route("GetDatos")]
+        [Route("ListarClientes")]
         public async Task<IActionResult> LIstarDatos()
         {
             //var persona = new
